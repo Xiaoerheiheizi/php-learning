@@ -1,0 +1,70 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.doc
+*.xls
+*.xlsx
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.scssc
+*.sassc
+.svn
+# IDE #
+#######
+.idea/
+/nbproject/
+
+
+# Project User #
+################
+*.js.map
+*.pem
+storage/framework/*.php
+storage/framework/down
+public/resources/nim_h5/js/main.online.js
+public/uploads/*
+public/docs/*
+storage/sami/cache
+!/public/uploads/.gitkeep
+node_modules
+.env
+composer.lock
+package-lock.json
+yarn.lock
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+phplint.cache
+rule.diff
+storage/clockwork/index
