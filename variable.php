@@ -1,5 +1,5 @@
 <?php
-
+// 变量
 $hi    = 'Hi';
 $hello = 'Hello';
 

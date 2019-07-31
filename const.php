@@ -1,5 +1,5 @@
 <?php
-
+// 常量
 const HELLO     = 'Hello';
 const SHIYANLOU = 'shiyanlou';
 

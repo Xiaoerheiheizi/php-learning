@@ -1,4 +1,5 @@
 <?php
+// html模板
 $highlight = true;
 ?>
 <html>
