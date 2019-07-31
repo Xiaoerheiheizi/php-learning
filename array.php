@@ -22,10 +22,3 @@ echo "$people->john then said hello to $people->jane." . PHP_EOL;   // John Smit
 echo "$people->john's wife greeted $people->robert." . PHP_EOL;     // John Smith's wife greeted Robert Paulsen.
 echo "$people->robert greeted the two $people->smith.";      // Won't work   // Robert Paulsen greeted the two Smith.
 ?>
-
-
-
-
-
-
-
