@@ -28,6 +28,16 @@
 			</li>
 		<?php endforeach ?>
 
+
+		<?php foreach ($task as $key => $value): ?>
+			<li>
+				<strong>
+					<?= $key ?>
+				</strong>
+				<?= $key == 'completed' ? ($value ? 'Completed' : 'Umcompleted') : $value ?>
+			</li>
+		<?php endforeach ?>
+
 	</ul>
 </header>
 </body>

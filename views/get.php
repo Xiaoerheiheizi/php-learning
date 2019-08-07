@@ -18,9 +18,16 @@ $person = [
 ];
 
 $person['name'] = 'Jelly';  // 添加数据
-$person[] = 'Jeff';
+$person[]       = 'Jeff';
 unset($person['hair']);     // 删除数据
 
-var_dump($person);
+var_dump($person);  // 调试函数，和console.log();差不多
+// die();   // 终止 另一种方式：die(var_dump($person));
+
+$task = [
+	'title'     => 'Go to shop',
+	'completed' => true,
+	'user'      => 'JellyBool',
+];
 
 require('get.view.php');
