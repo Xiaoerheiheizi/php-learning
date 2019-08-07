@@ -35,4 +35,8 @@ for ($i = 0; $i < $count; $i++) {
 	echo "Bad: {$array['$i']}\n";
 	echo "Good: {$array[$i]}\n";
 }
+
+foreach($array as $item){
+	echo $item . '，';
+}
 ?>
